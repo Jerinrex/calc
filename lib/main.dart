@@ -52,7 +52,7 @@ class _ArithmeticPageState extends State<ArithmeticPage> {
         break;
       case '/':
         if (num2 == 0) {
-          _result = 'Cannot divide by zero ';
+          _result = 'Cannot divide by zero  11';
           setState(() {});
           return;
         }
