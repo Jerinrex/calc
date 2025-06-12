@@ -34,7 +34,7 @@ class _ArithmeticPageState extends State<ArithmeticPage> {
 
     if (num1 == null || num2 == null) {
       setState(() {
-        _result = 'Enter valid numbers';
+        _result = 'Enter valid numbers ';
       });
       return;
     }
@@ -52,7 +52,7 @@ class _ArithmeticPageState extends State<ArithmeticPage> {
         break;
       case '/':
         if (num2 == 0) {
-          _result = 'Cannot divide by zero';
+          _result = 'Cannot divide by zero ';
           setState(() {});
           return;
         }
