@@ -80,7 +80,7 @@ class _ArithmeticPageState extends State<ArithmeticPage> {
   controller: _num1Controller,
   keyboardType: TextInputType.number,
   decoration: const InputDecoration(
-    labelText: 'Enter first number',
+    labelText: 'Enter first number ',
     border: OutlineInputBorder(), // Adds box border
     fillColor: Color.fromARGB(255, 53, 49, 7),
     contentPadding: EdgeInsets.symmetric(horizontal: 12, vertical: 10), // Optional padding
@@ -91,7 +91,7 @@ class _ArithmeticPageState extends State<ArithmeticPage> {
   controller: _num2Controller,
   keyboardType: TextInputType.number,
   decoration: const InputDecoration(
-    labelText: 'Enter second number',
+    labelText: 'Enter second number ',
     border: OutlineInputBorder(), // Adds box border
     contentPadding: EdgeInsets.symmetric(horizontal: 12, vertical: 10), // Optional padding
   ),
